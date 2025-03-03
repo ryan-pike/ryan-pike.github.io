@@ -12,4 +12,4 @@ I am a PhD candidate in Political Science at Yale University. My research intere
 
 Prior to graduate school, I worked for several years in Madrid, Spain. I received my B.A. in Political Science and Spanish from the University of California, Santa Barbara in 2017. During my time at Yale, I was also a visiting researcher at the University of Konstanz. 
 
-You can view my CV [here](/files/pike_cv1.25.pdf) and see my [Research](/research/) page for more information about my work. 
+You can view my CV [here](/files/pike_cv1.25.pdf) and see my [Research](/publications/) page for more information about my work. 
