@@ -6,4 +6,4 @@ redirect_from:
   - /research/
 ---
 
-In progress. 
+In progress.  
