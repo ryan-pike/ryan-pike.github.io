@@ -11,6 +11,47 @@ author_profile: true
 
 {% include base_path %}
 
+
+{% if site.publication_category %}
+  {% assign processed_posts = "" %} 
+
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+
+      {% if category[0] == 'working_papers' %}
+        {% unless post.category == 'working_papers' or post.category == 'under_review' or post.category == 'rr' %}
+          {% continue %}
+        {% endunless %}
+      {% elsif post.category != category[0] or processed_posts contains post.id %}
+        {% continue %}
+      {% endif %}
+
+      {% unless title_shown %}
+        <h2>
+          {% if category[0] == 'working_papers' %}
+            Working Papers
+          {% else %}
+            {{ category[1].title }}
+          {% endif %}
+        </h2>
+        <hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+
+      {% include archive-single.html %}
+      {% assign processed_posts = processed_posts | append: post.id | append: "," %}  {# Mark post as processed #}
+
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+
+{% comment %}
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -47,7 +88,7 @@ author_profile: true
 {% endif %}
 
 
-{% comment %}
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
