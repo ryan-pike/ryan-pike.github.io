@@ -84,6 +84,12 @@ publication_category:
     title: 'Conference Papers'
   working_papers: 
     title: 'Working Papers'
+  under_review:
+    title: 'Working Papers'
+  rr:
+    title: 'Working Papers'  
+
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
