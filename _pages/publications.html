@@ -40,7 +40,7 @@ author_profile: true
       {% endunless %}
 
       {% include archive-single.html %}
-      {% assign processed_posts = processed_posts | append: post.id | append: "," %}  {# Mark post as processed #}
+      {% assign processed_posts = processed_posts | append: post.id | append: "," %}
 
     {% endfor %}
   {% endfor %}
