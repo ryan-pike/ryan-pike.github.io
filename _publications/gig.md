@@ -1,0 +1,14 @@
+---
+title: "Greening in Groups: Firm Concentration and Lobbying on Green Industrial Policy"
+collection: publications
+category: working_papers
+permalink: /publication/gig
+excerpt: 'Green industrial policy is an increasingly common tool for states seeking to reach mid-century decarbonization targets. Whereas existing explanations of firm climate preferences largely focus on regulation, explanations for assistance lie at the sector level. I argue that a firm’s geographic concentration, by increasing the potential _proximate_ benefits that a firm can accrue following expansions to the green assistance budget, increases the likelihood a firm directly lobbies on green industrial policy. Assistance budget expansions make feasible _transformational_ decarbonization projects, large enough to spillover to multiple firms in a given area, hence those firms that are most concentrated to other firms stand to gain the most. Using French lobbying data, I assess how manufacturing firms responded to the expansion of green assistance as a part of the COVID-19 stimulus policy: France Relance. Using this exogenous funding shock in a difference-in-differences design, I find that more concentrated firms increasingly lobby on green industrial policy. This finding holds when I consider intra-industry heterogeneity in concentration with more concentrated firms increasingly lobbying alone. These results suggest that firm behavior towards green assistance is structured by a geographic rather than based on sector- or emissions intensity-based cleavage.'
+date: 2024-06-01
+venue: ''
+slidesurl: ''
+paperurl: '_Draft available upon request_'
+citation: 'Pike, Ryan. (2024). Greening in Groups: Firm Concentration and Lobbying on Green Industrial Policy. _Working Paper_'
+---
+
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
