@@ -36,10 +36,16 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        {% elsif page.category == 'working_papers' or page.category == 'under_review' or page.category == 'rr' %}
+  {% if page.category == 'working_papers' %}
+    <p><strong>Working Paper</strong></p>
+  {% elsif page.category == 'under_review' %}
+    <p>Submitted to <i>{{ page.venue }}</i></p>
+  {% elsif page.category == 'rr' %}
+    <p>Revise & Resubmit at <i>{{ page.venue }}</i></p>
+  {% endif %}
+{% elsif page.venue and page.date %}
+  <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% endif %}    
         </header>
       {% endunless %}
