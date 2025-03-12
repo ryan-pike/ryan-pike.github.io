@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "The Politics of International Law and Cooperation"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+role: 'grader'
+type: "Undergraduate course"
+permalink: /teaching/g_dp
+venue: "Yale University"
+date: 2022-01-01
+prof: "<a href = 'https://www.tylerbpratt.com/', target = '_blank'>Tyler Pratt</a>"
+coursenum: "PLSC182/GBL236"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
