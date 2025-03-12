@@ -44,7 +44,9 @@
   <p><em>Professor {{ post.prof }} </em>, {{post.coursenum}} </p>
           {% elsif post.role == 'grader' %}
       <p> Grader, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-  <p> {{ post.prof }}, {{post.coursenum}} </p>
+  <p><em> Professor {{ post.prof }}</em>, {{post.coursenum}} </p>
+          {% else %}
+    <p>Instructor, <i>{{ post.venue }}</i>,{{post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% endif %}
 {% elsif post.collection == 'publications' %}
   {% if post.category == 'working_papers' %}
