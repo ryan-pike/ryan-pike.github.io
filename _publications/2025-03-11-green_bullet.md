@@ -5,6 +5,7 @@ category: working_papers
 permalink: /publication/green_bullet
 date: 2025-03-11
 venue: 'Working Paper'
+paperurl: 'https://osf.io/fudzs'
 citation: 'Pike, Ryan. (2024). Deindustrialization, Decarbonization and Climate Investment: A Green Bullet for a Rusty Belt? <em>Working Paper</em>.'
 ---
 
