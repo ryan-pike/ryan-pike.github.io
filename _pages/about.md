@@ -14,4 +14,4 @@ At Yale, I am an affiliate of the [European Studies Council](https://macmillan.y
 
 I received my B.A. in Political Science and Spanish from the University of California, Santa Barbara in 2017. Afterwards, I worked for several years in Madrid, Spain. Outside of my academic interests, I enjoy playing water polo, cooking, and hiking.
 
-You can view my CV [here](/files/pike_cv1.25.pdf) and see my [Research](/publications/) page for more information about my work. 
+You can view my CV [here](/files/pike_cv_5.25.pdf) and see my [Research](/publications/) page for more information about my work. 
