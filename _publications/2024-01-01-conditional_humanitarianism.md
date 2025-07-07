@@ -1,10 +1,10 @@
 ---
 title: "Conditional Humanitarianism: Citizen Preferences for Economic Sanctions in Democratic Sender States"
 collection: publications
-category: working_papers
+category: under_review
 permalink: /publication/conditional_humanitarianism
 date: 2024-01-01
-venue: 'Working Paper'
+venue: 'Government and Opposition'
 citation: '<a href="https://mbondeli.github.io/index.html" target="_blank">Moritz Bondeli</a>, <a href="https://isabelamares.com/" target = "_blank">Isabela Mares</a> and Ryan Pike. (2024). Conditional Humanitarianism: Citizen Preferences for Economic Sanctions in Democratic Sender States. <em>Working Paper</em>.'
 ---
 
