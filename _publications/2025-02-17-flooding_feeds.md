@@ -1,7 +1,7 @@
 ---
 title: "Flooding Feeds: Elite Issue Attention and Competition after a Natural Disaster"
 collection: publications
-category: under_review
+category: rr
 permalink: /publication/flooding_feeds
 date: 2025-02-17
 venue: 'World Politics'
