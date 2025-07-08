@@ -1,7 +1,7 @@
 ---
 title: "Conditional Humanitarianism: Citizen Preferences for Economic Sanctions in Democratic Sender States"
 collection: publications
-category: under_review
+category: rr
 permalink: /publication/conditional_humanitarianism
 date: 2024-01-01
 venue: 'Government and Opposition'
