@@ -3,9 +3,9 @@ title: "Deindustrialization, Decarbonization and Climate Investment: A Green Bul
 collection: publications
 category: working_papers
 permalink: /publication/green_bullet
-date: 2025-08-07
+date: 2025-08-25
 venue: 'Working Paper'
-paperurl: 'http://ryan-pike.github.io/files/pike_gb_aug25.pdf'
+paperurl: 'http://ryan-pike.github.io/files/pike_jmp_825.pdf'
 citation: 'Pike, Ryan. (2025). Deindustrialization, Decarbonization and Climate Investment: A Green Bullet for a Rusty Belt? <em>Working Paper</em>.'
 ---
 
