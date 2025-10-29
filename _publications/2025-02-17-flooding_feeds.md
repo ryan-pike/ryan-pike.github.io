@@ -3,9 +3,9 @@ title: "Flooding Feeds: Elite Issue Attention and Competition after a Natural Di
 collection: publications
 category: rr
 permalink: /publication/flooding_feeds
-date: 2025-02-17
+date: 2025-10-29
 venue: 'World Politics'
-paperurl: 'http://ryan-pike.github.io/files/flooding_feeds2_17_25.pdf'
+paperurl: 'http://ryan-pike.github.io/files/pike_ff_29Oct2025.pdf'
 citation: 'Pike, Ryan. (2025). Flooding Feeds: Elite Issue Attention and Competition after a Natural Disasters. <em> Working Paper</em>.'
 ---
 
