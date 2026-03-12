@@ -26,6 +26,7 @@ author_profile: true
         {% elsif category[0] == 'manuscript' %}
         {% unless post.category == 'manuscript' %}
           {% continue %}
+        {% endunless %}
       {% elsif post.category != category[0] or processed_posts contains post.id %}
         {% continue %}
       {% endif %}
