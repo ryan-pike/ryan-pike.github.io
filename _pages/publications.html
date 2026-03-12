@@ -23,8 +23,8 @@ author_profile: true
         {% unless post.category == 'working_papers' or post.category == 'under_review' or post.category == 'rr' %}
           {% continue %}
         {% endunless %}
-        {% elsif category[0] == 'manuscript' %}
-        {% unless post.category == 'manuscript' %}
+        {% elsif category[0] == 'manuscripts' %}
+        {% unless post.category == 'manuscripts' %}
           {% continue %}
         {% endunless %}
       {% elsif post.category != category[0] or processed_posts contains post.id %}
@@ -35,7 +35,7 @@ author_profile: true
         <h2>
           {% if category[0] == 'working_papers' %}
             Working Papers
-          {% elsif category[0] == 'manuscript' %}
+          {% elsif category[0] == 'manuscripts' %}
             Journal Articles
           {% else %}
             {{ category[1].title }}
