@@ -43,6 +43,8 @@ layout: default
     <p>Submitted to <i>{{ page.venue }}</i></p>
   {% elsif page.category == 'rr' %}
     <p>Revise & Resubmit at <i>{{ page.venue }}</i></p>
+  {% elsif page.category == 'manuscripts' %}
+          <p> <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
   {% endif %}
 {% elsif page.venue and page.date %}
   <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
