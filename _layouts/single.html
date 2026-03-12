@@ -36,7 +36,7 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.category == 'working_papers' or page.category == 'under_review' or page.category == 'rr' %}
+        {% elsif page.category == 'working_papers' or page.category == 'under_review' or page.category == 'rr' or page.category == 'manuscripts' %}
   {% if page.category == 'working_papers' %}
     <p><strong>Working Paper</strong></p>
   {% elsif page.category == 'under_review' %}
