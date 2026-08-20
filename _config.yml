@@ -25,15 +25,15 @@ author:
   avatar           : "IMG_2757.jpg"
   name             : "Ryan Pike"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate, Political Science"
-  location         : "New Haven, CT"
-  employer         : "Yale University"
+  bio              : "Postdoctoral Fellow -- Berkeley Economy and Society Initiative"
+  location         : "San Francisco, CA"
+  employer         : "University of California Berkeley"
   uri              : # URL
   email            : "ryan.pike@yale.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #
+  googlescholar    : "https://scholar.google.com/citations?user=Zcz8RrgAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0002-4426-6674"
   semantic         : # URL
